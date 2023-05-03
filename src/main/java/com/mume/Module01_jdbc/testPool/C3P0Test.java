@@ -1,6 +1,6 @@
-package com.mume.testPool;
+package com.mume.Module01_jdbc.testPool;
 
-import com.mume.utils.C3P0Utils;
+import com.mume.Module01_jdbc.utils.C3P0Utils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

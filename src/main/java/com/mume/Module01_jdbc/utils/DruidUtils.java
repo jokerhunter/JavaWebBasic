@@ -1,4 +1,4 @@
-package com.mume.utils;
+package com.mume.Module01_jdbc.utils;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 
@@ -46,6 +46,14 @@ public class DruidUtils {
      */
     public static Connection getConnection() throws SQLException {
         return dataSource.getConnection();
+    }
+
+    /**
+     * 获取Druid连接池对象的方法
+     * @return
+     */
+    public static DataSource getDataSource() {
+        return dataSource;
     }
 
     // 5.释放资源方法

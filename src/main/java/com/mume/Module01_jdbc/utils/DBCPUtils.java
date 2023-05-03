@@ -1,4 +1,4 @@
-package com.mume.utils;
+package com.mume.Module01_jdbc.utils;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 

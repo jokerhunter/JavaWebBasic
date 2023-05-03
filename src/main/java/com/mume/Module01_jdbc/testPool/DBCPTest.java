@@ -1,6 +1,6 @@
-package com.mume.testPool;
+package com.mume.Module01_jdbc.testPool;
 
-import com.mume.utils.DBCPUtils;
+import com.mume.Module01_jdbc.utils.DBCPUtils;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
