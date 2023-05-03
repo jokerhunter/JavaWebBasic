@@ -3,7 +3,7 @@ package com.mume.Module01_jdbc.testDBUtils;
 import com.mume.Module01_jdbc.utils.DruidUtils;
 import org.apache.commons.dbutils.DbUtils;
 import org.apache.commons.dbutils.QueryRunner;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.sql.Connection;
 import java.sql.SQLException;

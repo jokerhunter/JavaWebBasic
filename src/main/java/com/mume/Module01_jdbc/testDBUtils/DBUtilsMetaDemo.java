@@ -1,7 +1,8 @@
 package com.mume.Module01_jdbc.testDBUtils;
 
 import com.mume.Module01_jdbc.utils.DruidUtils;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
 
 import java.sql.*;
 

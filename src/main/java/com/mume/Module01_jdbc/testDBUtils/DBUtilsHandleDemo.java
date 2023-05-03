@@ -4,7 +4,8 @@ import com.mume.Module01_jdbc.entity.Employee;
 import com.mume.Module01_jdbc.utils.DruidUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.*;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
 
 import java.sql.SQLException;
 import java.util.Arrays;
