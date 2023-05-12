@@ -28,7 +28,7 @@ public class Dom4jTest {
         SAXReader reader = new SAXReader();
 
         // 2.解析XML 获取文档对象document
-        String path = getClass().getResource("/Module02_xml.Dom4j_xml/user.xml").getPath();
+        String path = getClass().getResource("/Module02_xml/Dom4j_xml/user.xml").getPath();
         System.out.println(path);
         Document document = reader.read(path);
 
@@ -57,7 +57,7 @@ public class Dom4jTest {
     public void getContextAndAttr() throws DocumentException {
 
         // 2.解析XML 获取文档对象document
-        String path = getClass().getResource("/Module02_xml.Dom4j_xml/user.xml").getPath();
+        String path = getClass().getResource("/Module02_xml/Dom4j_xml/user.xml").getPath();
         System.out.println(path);
         Document document = reader.read(path);
 
@@ -82,7 +82,7 @@ public class Dom4jTest {
     public void selectSingleNodeByXPath() throws DocumentException {
 
         // 2.解析XML 获取文档对象document
-        String path = getClass().getResource("/Module02_xml.Dom4j_xml/book.xml").getPath();
+        String path = getClass().getResource("/Module02_xml/Dom4j_xml/book.xml").getPath();
         System.out.println(path);
         Document document = reader.read(path);
 
@@ -99,7 +99,7 @@ public class Dom4jTest {
      */
     @Test
     public void getAttrOrNodeByXPath() throws DocumentException {
-        String path = getClass().getResource("/Module02_xml.Dom4j_xml/book.xml").getPath();
+        String path = getClass().getResource("/Module02_xml/Dom4j_xml/book.xml").getPath();
         System.out.println(path);
         Document document = reader.read(path);
 
@@ -123,7 +123,7 @@ public class Dom4jTest {
      */
     @Test
     public void getAllNamedNode() throws DocumentException {
-        String path = getClass().getResource("/Module02_xml.Dom4j_xml/book.xml").getPath();
+        String path = getClass().getResource("/Module02_xml/Dom4j_xml/book.xml").getPath();
         System.out.println(path);
         Document document = reader.read(path);
 
